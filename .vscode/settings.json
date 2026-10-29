@@ -1,0 +1,6 @@
+{
+    "code-runner.runInTerminal": true,
+    "code-runner.executorMap": {
+        "c": "Set-Location -LiteralPath $dir; gcc '$fileName' -o '$fileNameWithoutExt.exe'; if ($LASTEXITCODE -eq 0) { & '.\\$fileNameWithoutExt.exe' }"
+    }
+}
